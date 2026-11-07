@@ -1,0 +1,6 @@
+interface:
+  display_name: "Claude Guard"
+  short_description: "Audit and clean local Claude account traces."
+  icon_small: "../../assets/icon.svg"
+  icon_large: "../../assets/icon.svg"
+  default_prompt: "Use $claude-guard to audit local Claude account traces without changing files, launching Claude, or making network requests."

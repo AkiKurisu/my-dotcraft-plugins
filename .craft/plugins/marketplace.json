@@ -1,0 +1,20 @@
+{
+  "name": "personal-plugins",
+  "interface": {
+    "displayName": "Personal DotCraft Plugins"
+  },
+  "plugins": [
+    {
+      "name": "claude-guard",
+      "source": {
+        "source": "local",
+        "path": "./plugins/claude-guard"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

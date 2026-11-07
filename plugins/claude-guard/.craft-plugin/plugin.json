@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "claude-guard",
+  "version": "0.1.0",
+  "displayName": "Claude Guard",
+  "description": "Audit and clean local Claude account traces while preserving current conversations.",
+  "capabilities": [
+    "skill"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Claude Guard",
+    "shortDescription": "Audit and clean local Claude account traces.",
+    "longDescription": "Find and remove old local Claude account data while preserving current conversations.",
+    "developerName": "DotHarness",
+    "category": "Productivity",
+    "capabilities": [
+      "Skill"
+    ],
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "defaultPrompt": "Use $claude-guard to audit local Claude account traces without changing files, launching Claude, or making network requests."
+  }
+}
