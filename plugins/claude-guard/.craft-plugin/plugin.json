@@ -12,7 +12,7 @@
     "displayName": "Claude Guard",
     "shortDescription": "Audit and clean local Claude account traces.",
     "longDescription": "Find and remove old local Claude account data while preserving current conversations.",
-    "developerName": "DotHarness",
+    "developerName": "AkiKurisu",
     "category": "Productivity",
     "capabilities": [
       "Skill"
